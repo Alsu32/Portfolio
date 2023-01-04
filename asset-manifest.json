@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio.git/static/css/main.d83ea385.css",
-    "main.js": "/Portfolio.git/static/js/main.2eae094e.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Portfolio.git/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/Portfolio.git/index.html",
-    "main.d83ea385.css.map": "/Portfolio.git/static/css/main.d83ea385.css.map",
-    "main.2eae094e.js.map": "/Portfolio.git/static/js/main.2eae094e.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Portfolio.git/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.d83ea385.css",
+    "main.js": "/Portfolio/static/js/main.dd5b8b06.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Portfolio/index.html",
+    "main.d83ea385.css.map": "/Portfolio/static/css/main.d83ea385.css.map",
+    "main.dd5b8b06.js.map": "/Portfolio/static/js/main.dd5b8b06.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d83ea385.css",
-    "static/js/main.2eae094e.js"
+    "static/js/main.dd5b8b06.js"
   ]
 }
