@@ -1,13 +1,21 @@
 import React from 'react';
-import style from './Header.module.css'
-import Nav from "../nav/Nav";
+import style from './Footer.module.scss'
+import stylesContainer from "../common/styles/Container.module.css";
 
-const Header = () => {
+
+const Footer = () => {
     return (
-        <div className={style.header}>
-            <Nav/>
+        <div className={style.footer}>
+            <div className={style.footerContainer}>
+                <div className={style.container}>
+                    <div className={style.box}></div>
+                    <div className={style.box}>git</div>
+                    <div className={style.box}>in</div>
+                    <div className={style.box}></div>
+                </div>
+            </div>
         </div>
     );
 };
 
-export default Header;
+export default Footer;

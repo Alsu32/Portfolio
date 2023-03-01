@@ -1,0 +1,25 @@
+@import "../../src/common/style/variables";
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $fontFamily;
+    line-height: 25px;
+    color: $textColor;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 30%;
+    z-index: 0;
+    overflow: hidden;
+    padding: 60px 100px 60px 100px;
+    outline: none;
+    background-color: $bgHeaderColor;
+    box-sizing: border-box;
+    @media screen and (max-width: 1400px) {
+        left: -500px;
+        top: -500px;
+}
+}

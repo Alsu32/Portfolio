@@ -1,0 +1,14 @@
+@import "../style/variables";
+
+.title {
+    display: block;
+    font-family: $fontFamily;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 5px;
+    color: $textColor;
+    position: relative;
+    box-sizing: border-box;
+}
+

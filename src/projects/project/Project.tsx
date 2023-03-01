@@ -1,20 +1,22 @@
-import React from 'react';
-import style from './Projects.module.css'
-import stylesContainer from '../common/styles/Container.module.css'
+import React, {FC} from 'react';
+import styleMain from './Project.module.scss'
 
 
-const Projects = () => {
+export const Project: FC<ProjectPropsType> = ({title, description, style}) => {
     return (
-        <div className={style.skillsBlock}>
-            <div className={`${stylesContainer.container} ${style.skillsContainer}`}>
-                <h2 className={style.title}>My projects</h2>
-                <div className={style.projects}>
-
-                </div>
+        <div className={styleMain.project}>
+            <div className={styleMain.img} style={style}>
+                <a className={styleMain.button}>Смотреть</a>
             </div>
-
+            <h3 className={styleMain.title}>{title}</h3>
+            <span className={styleMain.description}>{description}</span>
         </div>
     );
 };
 
-export default Projects;
+// types
+type ProjectPropsType = {
+    title: string
+    description: string
+    style: any
+}

@@ -1,31 +1,42 @@
 import React from 'react';
-import style from './Skills.module.css'
-import stylesContainer from '../common/styles/Container.module.css'
-import Skill from "./skill/Skill";
+import style from './Contacts.module.scss'
+import {Title} from "../common/title/Title";
 
-const Skills = () => {
+
+const Contacts = () => {
     return (
-        <div className={style.skillsBlock}>
-            <div className={`${stylesContainer.container} ${style.skillsContainer}`}>
-                <h2 className={style.title}>Skills</h2>
-                <div className={style.skills}>
-                    <Skill title={'HTML'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-                        'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>
-                    <Skill title={'CSS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-                        'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>
-                    <Skill title={'JS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-                        'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>
-                    <Skill title={'React'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-                        'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>
-                    <Skill title={'Storybook'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-                        'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>
-                    <Skill title={'GitHub'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-                        'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>
+        <div className={style.contactBlock}>
+            <div className={style.contactsContainer}>
+                <Title title="CONTACT"/>
+                <div className={style.contact}>
+                    <div>
+                        <p>
+                            <strong>FULL NAME:</strong> Alsu T.Kirillova<br/>
+                            <strong>BIRTHDAY:</strong> 15. 01. 1988.<br/>
+                            <strong>ADDRESS:</strong> Some Street Moscow, Russia
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <strong>PHONE:</strong> +7(909)985 **** <br/>
+                            <strong>EMAIL:</strong> sai-alsu@mail.ru<br/>
+                            <strong>WEBSITE:</strong> ---
+                        </p>
+                    </div>
+                </div>
+                <div className={style.formContainer}>
+                    <form className={style.form}>
+                        <input type="text" placeholder="NAME" className={style.input}/>
+                        <input type="text" placeholder="EMAIL" className={style.input}/>
+                        <input type="text" placeholder="SUBJECT" className={style.input}/>
+                        <textarea placeholder="MESSAGE" className={style.textarea}/>
+                    </form>
+                    <button type="submit" className={style.button}>Отправить</button>
                 </div>
             </div>
-
         </div>
     );
 };
 
-export default Skills;
+export default Contacts;
+

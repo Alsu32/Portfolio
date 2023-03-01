@@ -1,11 +1,13 @@
 import React from 'react';
-import style from './Header.module.css'
-import Nav from "../nav/Nav";
+import style from './Header.module.scss'
+import Nav from "./nav/Nav";
+import Footer from "../footer/Footer";
 
 const Header = () => {
     return (
         <div className={style.header}>
             <Nav/>
+            <Footer/>
         </div>
     );
 };

@@ -1,0 +1,48 @@
+@import "../../../src/common/style/variables";
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  background-color: $bgColor;
+  max-width: 400px;
+  box-sizing: border-box;
+  font-family: $fontFamily;
+  padding: 10px 50px 20px 0;
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 5px;
+      opacity: 90%;
+      width: 150px;
+      height: 50px;
+    }
+  }
+  .title {
+    padding: 5px;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 1;
+
+  }
+  .description {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+  }
+
+}
+
+
+
