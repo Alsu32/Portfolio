@@ -5,7 +5,7 @@ import {Title} from "../common/title/Title";
 import social from "../img/social.avif"
 import todo from "../img/todo.png"
 
-const Projects = () => {
+export const Projects = () => {
 
     const socialNetwork = {
         backgroundImage: `url(${social})`
@@ -26,9 +26,7 @@ const Projects = () => {
                     <Project style={socialNetwork} title={'Social network'} description={text}/>
                 </div>
             </div>
-
         </div>
     );
 };
 
-export default Projects;

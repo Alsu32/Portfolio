@@ -1,8 +1,8 @@
 import React from 'react';
 import style from './Main.module.scss'
-import photo from "../img/photo4.jpg"
+import photo from "../img/photo3.jpg"
 
-const Main = () => {
+export const Main = () => {
     return (
         <div className={style.main}>
             <div className={style.container}>
@@ -12,5 +12,3 @@ const Main = () => {
         </div>
     );
 };
-
-export default Main;

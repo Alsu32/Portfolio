@@ -3,25 +3,21 @@ import style from './Contacts.module.scss'
 import {Title} from "../common/title/Title";
 
 
-const Contacts = () => {
+export const Contacts = () => {
     return (
         <div className={style.contactBlock}>
             <div className={style.contactsContainer}>
                 <Title title="CONTACT"/>
                 <div className={style.contact}>
                     <div>
-                        <p>
-                            <strong>FULL NAME:</strong> Alsu T.Kirillova<br/>
-                            <strong>BIRTHDAY:</strong> 15. 01. 1988.<br/>
-                            <strong>ADDRESS:</strong> Some Street Moscow, Russia
-                        </p>
+                        <strong>FULL NAME:</strong> Alsu T.Kirillova<br/>
+                        <strong>BIRTHDAY:</strong> 15. 01. 1988.<br/>
+                        <strong>ADDRESS:</strong> Some Street Moscow, Russia
                     </div>
                     <div>
-                        <p>
-                            <strong>PHONE:</strong> +7(909)985 **** <br/>
-                            <strong>EMAIL:</strong> sai-alsu@mail.ru<br/>
-                            <strong>WEBSITE:</strong> ---
-                        </p>
+                        <strong>PHONE:</strong> +7(909)985 **** <br/>
+                        <strong>EMAIL:</strong> sai-alsu@mail.ru<br/>
+                        <strong>WEBSITE:</strong> ---
                     </div>
                 </div>
                 <div className={style.formContainer}>
@@ -35,8 +31,7 @@ const Contacts = () => {
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Contacts;
 

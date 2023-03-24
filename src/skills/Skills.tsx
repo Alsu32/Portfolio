@@ -1,27 +1,26 @@
 import React from 'react';
 import style from './Skills.module.scss'
-import stylesContainer from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
 import {Title} from "../common/title/Title";
 
-const Skills = () => {
+export const Skills = () => {
     return (
         <div className={style.skillsBlock}>
             <div className={style.skillsContainer}>
                 <Title title="SKILLS"/>
                 <div className={style.skills}>
-                    <Skill title={'HTML'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
+                    <Skill title={'REACT'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
                         'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>
-                    <Skill title={'CSS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
+                    <Skill title={'REDUX'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
                         'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>
                     <Skill title={'JS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
                         'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>
                     <Skill title={'TypeScript'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
                         'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>
-                    <Skill title={'REACT'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
+                    {/*<Skill title={'HTML'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
                         'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>
-                    <Skill title={'REDUX'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-                        'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>
+                    <Skill title={'CSS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
+                        'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>*/}
                     <Skill title={'RestAPI'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
                         'Cum, dolore ducimus magnam minus quae quaerat rerum voluptates.'}/>
                     <Skill title={'Material UI'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
@@ -31,9 +30,6 @@ const Skills = () => {
 
                 </div>
             </div>
-
         </div>
     );
 };
-
-export default Skills;

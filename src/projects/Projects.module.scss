@@ -10,8 +10,12 @@
     width: 65%;
     padding: 60px 100px;
     @media screen and (max-width: 1400px) {
+      width: 100%;
       align-items: center;
-      width: 80%;
+      box-sizing: border-box;
+    }
+    @media screen and (max-width: 780px) {
+      padding: 20px;
     }
     .projects {
       display: flex;

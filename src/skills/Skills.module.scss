@@ -1,4 +1,5 @@
 @import "../../src/common/style/variables";
+
 .skillsBlock {
   background-color: $bgColor;
   .skillsContainer {
@@ -8,17 +9,17 @@
     justify-content: space-evenly;
     height: auto;
     width: 65%;
-    padding: 60px 100px 60px 100px;
+    padding: 60px 100px;
     @media screen and (max-width: 1400px) {
-      width: 80%;
+      width: 100%;
       align-items: center;
-      justify-content: center;
+      box-sizing: border-box;
     }
     .skills {
-      width: 100%;
       display: flex;
       justify-content: flex-start;
       flex-wrap: wrap;
+      width: 100%;
       @media screen and (max-width: 1400px) {
         justify-content: center;
       }

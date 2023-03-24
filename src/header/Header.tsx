@@ -3,7 +3,7 @@ import style from './Header.module.scss'
 import Nav from "./nav/Nav";
 import Footer from "../footer/Footer";
 
-const Header = () => {
+export const Header = () => {
     return (
         <div className={style.header}>
             <Nav/>
@@ -11,5 +11,3 @@ const Header = () => {
         </div>
     );
 };
-
-export default Header;
